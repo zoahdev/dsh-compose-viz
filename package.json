@@ -1,0 +1,20 @@
+{
+  "name": "dsh-compose-viz",
+  "version": "0.1.0",
+  "description": "Visualize a DeepSeek Harness agent-preset composition: groups, isolate realms, and every tool/service row, from agent.cordis.yml.",
+  "type": "module",
+  "bin": {
+    "dsh-compose-viz": "bin/compose-viz.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "yaml": "^2.8.0"
+  },
+  "scripts": {
+    "test": "node --test test/compose-viz.test.mjs"
+  },
+  "keywords": ["deepseek-harness", "dsh", "cordis", "composition", "visualization", "plugin"],
+  "license": "MIT"
+}
